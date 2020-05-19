@@ -96,7 +96,7 @@ Records RTSP Audio/Visual Streams to local disk using ffmpeg
 ### Setting custom filename formats
 
 ```js
-    const Recorder = require('node-rtsp-recorder').Recorder
+    const Recorder = require('node-onvif-recorder').Recorder
 
     var rec = new Recorder({
         url: 'rtsp://192.168.1.12:8554/unicast',
